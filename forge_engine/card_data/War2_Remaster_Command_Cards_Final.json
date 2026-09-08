@@ -1,0 +1,496 @@
+{
+  "module_base": 9764864,
+  "module_size": 6467584,
+  "record_size": 24,
+  "icon_offset": 2,
+  "confirmed_card_bases": {
+    "sgHGruntCard": 5008288,
+    "sgOPeasantCard": 5009488,
+    "sgHFlyerCard": 5013856,
+    "sgOGenericCard": 5016328,
+    "sgHGenericCard": 5016520,
+    "paddata": 5016304,
+    "sgOGruntCard": 5008528,
+    "sgHBallistaCard": 5008288,
+    "sgHumanBldWdnCard": 5009680,
+    "sgHumanBldStnCard": 5010064,
+    "sgHKnightCard": 5010928,
+    "sgHWizardCard": 5010496,
+    "sgHTowerCard": 5015616,
+    "sgCancelTargetCard": 5016208,
+    "sgHPeasantCard": 5009296,
+    "sgHArcherCard": 5008864,
+    "sgHPaladinCard": 5011504,
+    "sgOChogalCard": 5012080,
+    "sgOBallistaCard": 5008528,
+    "sgOArcherCard": 5009080,
+    "sgOKnightCard": 5011216,
+    "sgOTransportCard": 5013736,
+    "sgODestroyerCard": 5013376,
+    "sgOBalloonCard": 5013976,
+    "sgHTransportCard": 5013616,
+    "sgHDestroyerCard": 5013136,
+    "sgOWizardCard": 5010712,
+    "sgOrcBldStnCard": 5010280,
+    "sgOrcBldWdnCard": 5009872,
+    "sgOTowerCard": 5015728,
+    "sgOOgreMageCard": 5011792,
+    "sgOTankerCard": 5012536,
+    "sgOSubCard": 5012920,
+    "sgHTankerCard": 5012368,
+    "sgHSubCard": 5012704,
+    "sgOTownHallCard": 5015176,
+    "sgHShipyardCard": 5014096,
+    "sgHTownHallCard": 5015104,
+    "sgHFoundryCard": 5014336,
+    "sgHMillCard": 5014528,
+    "sgHSmithCard": 5014816,
+    "sgHBarracksCard": 5015392,
+    "sgHChurchCard": 5016064,
+    "sgHWTowerCard": 5015776,
+    "sgHAviaryCard": 5015248,
+    "sgOShipyardCard": 5014216,
+    "sgOFoundryCard": 5014432,
+    "sgOMillCard": 5014672,
+    "sgOSmithCard": 5014960,
+    "sgOAviaryCard": 5015272,
+    "sgOWTowerCard": 5015920,
+    "sgOChurchCard": 5016136,
+    "sgOBarracksCard": 5015536,
+    "sgCancelBuildCard": 5016256,
+    "sgCancelPlaceCard": 5016232
+  },
+  "button_mappings": {
+    "sgHGruntCard": {
+      "0": 5008288
+    },
+    "sgOPeasantCard": {
+      "0": 5009488
+    },
+    "sgHFlyerCard": {
+      "0": 5013856
+    },
+    "sgOGenericCard": {
+      "0": 5016328
+    },
+    "sgHGenericCard": {
+      "0": 5016520
+    },
+    "paddata": {
+      "0": 5016304
+    },
+    "sgOGruntCard": {
+      "0": 5008528
+    },
+    "sgHBallistaCard": {
+      "0": 5008288
+    },
+    "sgHumanBldWdnCard": {
+      "0": 5009680
+    },
+    "sgHumanBldStnCard": {
+      "0": 5010064
+    },
+    "sgHKnightCard": {
+      "0": 5010928
+    },
+    "sgHWizardCard": {
+      "0": 5010496
+    },
+    "sgHTowerCard": {
+      "0": 5015616,
+      "1": 5015704
+    },
+    "sgCancelTargetCard": {
+      "0": 5016208
+    },
+    "sgHPeasantCard": {
+      "0": 5009296
+    },
+    "sgHArcherCard": {
+      "0": 5008864
+    },
+    "sgHPaladinCard": {
+      "0": 5011504
+    },
+    "sgOChogalCard": {
+      "0": 5012080
+    },
+    "sgOBallistaCard": {
+      "0": 5008528
+    },
+    "sgOArcherCard": {
+      "0": 5009080
+    },
+    "sgOKnightCard": {
+      "0": 5011216
+    },
+    "sgOTransportCard": {
+      "0": 5013736
+    },
+    "sgODestroyerCard": {
+      "0": 5013376
+    },
+    "sgOBalloonCard": {
+      "0": 5013976
+    },
+    "sgHTransportCard": {
+      "0": 5013616
+    },
+    "sgHDestroyerCard": {
+      "0": 5013136
+    },
+    "sgOWizardCard": {
+      "0": 5010712
+    },
+    "sgOrcBldStnCard": {
+      "0": 5010280
+    },
+    "sgOrcBldWdnCard": {
+      "0": 5009872
+    },
+    "sgOTowerCard": {
+      "0": 5015728,
+      "1": 5015752
+    },
+    "sgOOgreMageCard": {
+      "0": 5011792
+    },
+    "sgOTankerCard": {
+      "0": 5012536
+    },
+    "sgOSubCard": {
+      "0": 5012920
+    },
+    "sgHTankerCard": {
+      "0": 5012368
+    },
+    "sgHSubCard": {
+      "0": 5012704
+    },
+    "sgOTownHallCard": {
+      "0": 5015176,
+      "1": 5015200,
+      "2": 5015224
+    },
+    "sgHInventerCard": {
+      "0": 5015296,
+      "1": 5015320
+    },
+    "sgOInventerCard": {
+      "0": 5015344,
+      "1": 5015368
+    },
+    "sgHShipyardCard": {
+      "0": 5014096,
+      "1": 5014120,
+      "2": 5014144,
+      "3": 5014168,
+      "4": 5014192
+    },
+    "sgHTownHallCard": {
+      "0": 5015104,
+      "1": 5015128,
+      "2": 5015152
+    },
+    "sgHFoundryCard": {
+      "0": 5014336,
+      "2": 5014384,
+      "1": 5014360,
+      "3": 5014408
+    },
+    "sgHMillCard": {
+      "0": 5014528,
+      "1": 5014552,
+      "3": 5014600,
+      "4": 5014624,
+      "5": 5014648,
+      "2": 5014576
+    },
+    "sgHSmithCard": {
+      "0": 5014816,
+      "1": 5014840,
+      "2": 5014864,
+      "3": 5014888,
+      "4": 5014912,
+      "5": 5014936
+    },
+    "sgHBarracksCard": {
+      "0": 5015392,
+      "1": 5015416,
+      "2": 5015440,
+      "3": 5015464,
+      "4": 5015488,
+      "5": 5015512
+    },
+    "sgHChurchCard": {
+      "0": 5016064,
+      "1": 5016088,
+      "2": 5016112
+    },
+    "sgHWTowerCard": {
+      "0": 5015776,
+      "1": 5015800,
+      "2": 5015824,
+      "3": 5015848,
+      "4": 5015872,
+      "5": 5015896
+    },
+    "sgHAviaryCard": {
+      "0": 5015248
+    },
+    "sgOShipyardCard": {
+      "0": 5014216,
+      "1": 5014240,
+      "2": 5014264,
+      "3": 5014288,
+      "4": 5014312
+    },
+    "sgOFoundryCard": {
+      "0": 5014432,
+      "1": 5014456,
+      "2": 5014480,
+      "3": 5014504
+    },
+    "sgOMillCard": {
+      "0": 5014672,
+      "1": 5014696,
+      "3": 5014744,
+      "4": 5014768,
+      "5": 5014792,
+      "2": 5014720
+    },
+    "sgOSmithCard": {
+      "0": 5014960,
+      "1": 5014984,
+      "2": 5015008,
+      "3": 5015032,
+      "4": 5015056,
+      "5": 5015080
+    },
+    "sgOAviaryCard": {
+      "0": 5015272
+    },
+    "sgOWTowerCard": {
+      "0": 5015920,
+      "1": 5015944,
+      "2": 5015968,
+      "3": 5015992,
+      "4": 5016016,
+      "5": 5016040
+    },
+    "sgOChurchCard": {
+      "0": 5016136,
+      "1": 5016160,
+      "2": 5016184
+    },
+    "sgOBarracksCard": {
+      "0": 5015536,
+      "1": 5015560,
+      "2": 5015584,
+      "3": 5015608,
+      "4": 5015632,
+      "5": 5015656
+    },
+    "sgCancelBuildCard": {
+      "2": 5016256,
+      "3": 5016280,
+      "4": 5016304
+    },
+    "sgCancelPlaceCard": {
+      "0": 5016232
+    }
+  },
+  "skipped_buttons": {
+    "sgCancelBuildCard": {
+      "0": "Legacy Auto Upgrade row is not exposed in Remaster/Battle.net",
+      "1": "Legacy Auto Build row is not exposed in Remaster/Battle.net"
+    }
+  },
+  "notes": {
+    "sgHInventerCard": "User-confirmed: Button 1 record +4C8700/icon +4C8702; Button 2 record +4C8718/icon +4C871A.",
+    "sgOInventerCard": "User-confirmed: Button 1 record +4C8730/icon +4C8732; Button 2 record +4C8748/icon +4C874A.",
+    "sgOTownHallCard": "User-confirmed first button record +4C8688/icon +4C868A. Button 2 confirmed at record +0x004C86A0, icon +0x004C86A2. Button 3 confirmed at record +0x004C86B8, icon +0x004C86BA.",
+    "sgHShipyardCard": "Button 1 confirmed at record +0x004C8250, icon +0x004C8252. Button 2 confirmed at record +0x004C8268, icon +0x004C826A. Button 3 confirmed at record +0x004C8280, icon +0x004C8282. Button 4 confirmed at record +0x004C8298, icon +0x004C829A. Button 5 confirmed at record +0x004C82B0, icon +0x004C82B2.",
+    "sgHTownHallCard": "Button 1 confirmed at record +0x004C8640, icon +0x004C8642. Button 2 confirmed at record +0x004C8658, icon +0x004C865A. Button 3 confirmed at record +0x004C8670, icon +0x004C8672.",
+    "_program": "Imported from the user's latest War2_Confirmed_Building_Buttons.json. legacy auto-build/auto-upgrade rows remain available but are hidden from normal progress by default.",
+    "sgHFoundryCard": "Button 1 confirmed at record +0x004C8340, icon +0x004C8342. Button 3 confirmed at record +0x004C8370, icon +0x004C8372. Button 2 confirmed at record +0x004C8358, icon +0x004C835A. Button 4 confirmed at record +0x004C8388, icon +0x004C838A.",
+    "sgHMillCard": "Button 1 confirmed at record +0x004C8400, icon +0x004C8402. Button 2 confirmed at record +0x004C8418, icon +0x004C841A. Button 4 confirmed at record +0x004C8448, icon +0x004C844A. Button 5 confirmed at record +0x004C8460, icon +0x004C8462. Button 6 confirmed at record +0x004C8478, icon +0x004C847A. Button 3 confirmed at record +0x004C8430, icon +0x004C8432.",
+    "sgHSmithCard": "Button 1 confirmed at record +0x004C8520, icon +0x004C8522. Button 2 confirmed at record +0x004C8538, icon +0x004C853A. Button 3 confirmed at record +0x004C8550, icon +0x004C8552. Button 4 confirmed at record +0x004C8568, icon +0x004C856A. Button 5 confirmed at record +0x004C8580, icon +0x004C8582. Button 6 confirmed at record +0x004C8598, icon +0x004C859A.",
+    "sgHBarracksCard": "Button 1 confirmed at record +0x004C8760, icon +0x004C8762. Button 2 confirmed at record +0x004C8778, icon +0x004C877A. Button 3 confirmed at record +0x004C8790, icon +0x004C8792. Button 4 confirmed at record +0x004C87A8, icon +0x004C87AA. Button 5 confirmed at record +0x004C87C0, icon +0x004C87C2. Button 6 confirmed at record +0x004C87D8, icon +0x004C87DA.",
+    "sgHChurchCard": "Button 1 confirmed at record +0x004C8A00, icon +0x004C8A02. Button 2 confirmed at record +0x004C8A18, icon +0x004C8A1A. Button 3 confirmed at record +0x004C8A30, icon +0x004C8A32.",
+    "sgHWTowerCard": "Button 1 confirmed at record +0x004C88E0, icon +0x004C88E2. Button 2 confirmed at record +0x004C88F8, icon +0x004C88FA. Button 3 confirmed at record +0x004C8910, icon +0x004C8912. Button 4 confirmed at record +0x004C8928, icon +0x004C892A. Button 5 confirmed at record +0x004C8940, icon +0x004C8942. Button 6 confirmed at record +0x004C8958, icon +0x004C895A.",
+    "sgHAviaryCard": "Button 1 confirmed at record +0x004C86D0, icon +0x004C86D2.",
+    "sgHTowerCard": "Button 2 confirmed at record +0x004C8898, icon +0x004C889A.",
+    "sgOShipyardCard": "Button 1 confirmed at record +0x004C82C8, icon +0x004C82CA. Button 2 confirmed at record +0x004C82E0, icon +0x004C82E2. Button 3 confirmed at record +0x004C82F8, icon +0x004C82FA. Button 4 confirmed at record +0x004C8310, icon +0x004C8312. Button 5 confirmed at record +0x004C8328, icon +0x004C832A.",
+    "sgOFoundryCard": "Button 1 confirmed at record +0x004C83A0, icon +0x004C83A2. Button 2 confirmed at record +0x004C83B8, icon +0x004C83BA. Button 3 confirmed at record +0x004C83D0, icon +0x004C83D2. Button 4 confirmed at record +0x004C83E8, icon +0x004C83EA.",
+    "sgOMillCard": "Button 1 confirmed at record +0x004C8490, icon +0x004C8492. Button 2 confirmed at record +0x004C84A8, icon +0x004C84AA. Button 4 confirmed at record +0x004C84D8, icon +0x004C84DA. Button 5 confirmed at record +0x004C84F0, icon +0x004C84F2. Button 6 confirmed at record +0x004C8508, icon +0x004C850A. Button 3 confirmed at record +0x004C84C0, icon +0x004C84C2.",
+    "sgOSmithCard": "Button 1 confirmed at record +0x004C85B0, icon +0x004C85B2. Button 2 confirmed at record +0x004C85C8, icon +0x004C85CA. Button 3 confirmed at record +0x004C85E0, icon +0x004C85E2. Button 4 confirmed at record +0x004C85F8, icon +0x004C85FA. Button 5 confirmed at record +0x004C8610, icon +0x004C8612. Button 6 confirmed at record +0x004C8628, icon +0x004C862A.",
+    "sgOAviaryCard": "Button 1 confirmed at record +0x004C86E8, icon +0x004C86EA.",
+    "sgOWTowerCard": "Button 1 confirmed at record +0x004C8970, icon +0x004C8972. Button 2 confirmed at record +0x004C8988, icon +0x004C898A. Button 3 confirmed at record +0x004C89A0, icon +0x004C89A2. Button 4 confirmed at record +0x004C89B8, icon +0x004C89BA. Button 5 confirmed at record +0x004C89D0, icon +0x004C89D2. Button 6 confirmed at record +0x004C89E8, icon +0x004C89EA.",
+    "sgOChurchCard": "Button 1 confirmed at record +0x004C8A48, icon +0x004C8A4A. Button 2 confirmed at record +0x004C8A60, icon +0x004C8A62. Button 3 confirmed at record +0x004C8A78, icon +0x004C8A7A.",
+    "sgOTowerCard": "Button 2 confirmed at record +0x004C88C8, icon +0x004C88CA.",
+    "sgOBarracksCard": "Button 1 confirmed at record +0x004C87F0, icon +0x004C87F2. Button 2 confirmed at record +0x004C8808, icon +0x004C880A. Button 3 confirmed at record +0x004C8820, icon +0x004C8822. Button 4 confirmed at record +0x004C8838, icon +0x004C883A. Button 5 confirmed at record +0x004C8850, icon +0x004C8852. Button 6 confirmed at record +0x004C8868, icon +0x004C886A.",
+    "_program_v3": "Imported directly from War2_Confirmed_Building_Buttons(1).json. Candidate addresses are global raw records and are not assigned to a building section until the user confirms them.",
+    "sgCancelBuildCard": "Cancel Construction confirmed at record +0x004C8AC0, icon +0x004C8AC2. Cancel Upgrade / Research confirmed at record +0x004C8AD8, icon +0x004C8ADA. Cancel Unit Training confirmed at record +0x004C8AF0, icon +0x004C8AF2.",
+    "sgCancelPlaceCard": "Cancel Placement confirmed at record +0x004C8AA8, icon +0x004C8AAA."
+  },
+  "ui_state": {
+    "scan_start_rva": 5014072,
+    "scan_end_rva": 5016328,
+    "hide_assigned_candidates": true,
+    "filter_same_slot": false,
+    "auto_follow_selected_building": true,
+    "include_legacy_auto_rows": false,
+    "show_unfinished_only": true
+  },
+  "suggested_candidates": {
+    "sgHMillCard": {
+      "2": {
+        "record_rva": 5014576,
+        "confidence": "EXACT GAP",
+        "reason": "Between confirmed source rows 2 and 4 at one 24-byte stride."
+      }
+    },
+    "sgOMillCard": {
+      "2": {
+        "record_rva": 5014720,
+        "confidence": "EXACT GAP",
+        "reason": "Between confirmed source rows 2 and 4 at one 24-byte stride."
+      }
+    },
+    "sgOTownHallCard": {
+      "1": {
+        "record_rva": 5015200,
+        "confidence": "STRONG",
+        "reason": "Immediately follows confirmed Orc Town Hall button 1."
+      },
+      "2": {
+        "record_rva": 5015224,
+        "confidence": "STRONG",
+        "reason": "Next 24-byte record before confirmed Human Aviary at +4C86D0."
+      }
+    },
+    "sgHChurchCard": {
+      "1": {
+        "record_rva": 5016088,
+        "confidence": "STRONG",
+        "reason": "Immediately follows confirmed Human Church button 1."
+      },
+      "2": {
+        "record_rva": 5016112,
+        "confidence": "STRONG",
+        "reason": "Next record before confirmed Orc Church at +4C8A48."
+      }
+    },
+    "sgOChurchCard": {
+      "1": {
+        "record_rva": 5016160,
+        "confidence": "STRONG",
+        "reason": "Immediately follows confirmed Orc Church button 1."
+      },
+      "2": {
+        "record_rva": 5016184,
+        "confidence": "STRONG",
+        "reason": "Next record before confirmed Cancel Targeting at +4C8A90."
+      }
+    },
+    "sgCancelPlaceCard": {
+      "0": {
+        "record_rva": 5016232,
+        "confidence": "LIKELY",
+        "reason": "First 24-byte record after confirmed Cancel Targeting."
+      }
+    }
+  },
+  "cancel_finder": {
+    "record_size": 24,
+    "icon_offset": 2,
+    "targets": {
+      "Cancel Placement": {
+        "array": "sgCancelPlaceCard",
+        "source_row": 0,
+        "recommended_record_rva": 5016232,
+        "recommended_icon_rva": 5016234,
+        "scenario": "Select a Peasant/Peon, open a build menu, click a building so the placement footprint follows the cursor, and do not place it."
+      },
+      "Cancel Construction": {
+        "array": "sgCancelBuildCard",
+        "source_row": 2,
+        "recommended_record_rva": 5016256,
+        "recommended_icon_rva": 5016258,
+        "scenario": "Begin constructing a building, select it before completion, and leave the construction Cancel button visible."
+      },
+      "Cancel Upgrade / Research": {
+        "array": "sgCancelBuildCard",
+        "source_row": 3,
+        "recommended_record_rva": 5016280,
+        "recommended_icon_rva": 5016282,
+        "scenario": "Start a building upgrade or technology/spell research, select the building, and leave the Cancel button visible."
+      },
+      "Cancel Unit Training": {
+        "array": "sgCancelBuildCard",
+        "source_row": 4,
+        "recommended_record_rva": 5016304,
+        "recommended_icon_rva": 5016306,
+        "scenario": "Queue a unit in a Barracks, Town Hall, Shipyard, or similar building, select it, and leave the Cancel Training button visible."
+      }
+    },
+    "candidate_record_rvas": [
+      5016232,
+      5016256,
+      5016280,
+      5016304
+    ],
+    "warning": "The order is a strong structural hypothesis, not confirmation. Record +4C8AF0 is also currently labeled paddata in the mapping, so the tool permits address aliases and will not delete that entry."
+  },
+  "editor": {
+    "format": "War2RemasterCommandCardEditor",
+    "version": 1,
+    "selected_object_pointer_rva": 5360704,
+    "selected_card_id_offset": 37,
+    "record_size": 24,
+    "field_layout": {
+      "panel_slot": {
+        "offset": 0,
+        "size": 2
+      },
+      "icon_id": {
+        "offset": 2,
+        "size": 2
+      },
+      "visibility_callback": {
+        "offset": 4,
+        "size": 4
+      },
+      "remaster_bridge": {
+        "offset": 8,
+        "size": 4
+      },
+      "action_callback": {
+        "offset": 12,
+        "size": 4
+      },
+      "visibility_parameter": {
+        "offset": 16,
+        "size": 1
+      },
+      "action_parameter": {
+        "offset": 17,
+        "size": 1
+      },
+      "tooltip_id": {
+        "offset": 18,
+        "size": 2
+      },
+      "targeting_mask": {
+        "offset": 20,
+        "size": 2
+      },
+      "auxiliary": {
+        "offset": 22,
+        "size": 2
+      }
+    }
+  }
+}

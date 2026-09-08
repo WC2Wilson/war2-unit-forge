@@ -1,0 +1,32 @@
+{
+  "format": "War2RemasterUnitForgeProject",
+  "version": 7,
+  "game_path": "C:\\Program Files (x86)\\Warcraft II Remastered\\x86",
+  "active_registry_index": 0,
+  "units": [
+    {
+      "unit_name": "Elder Assassin",
+      "source_id": 8,
+      "graphics_id": 8,
+      "icon_id": 8,
+      "target_id": 16,
+      "producer_card_id": 60,
+      "panel_slot": 6,
+      "string_id": 36,
+      "requirement_source": "Always visible (proof)",
+      "overrides": {}
+    },
+    {
+      "unit_name": "Shadow Raider",
+      "source_id": 9,
+      "graphics_id": 9,
+      "icon_id": 9,
+      "target_id": 17,
+      "producer_card_id": 61,
+      "panel_slot": 6,
+      "string_id": 500,
+      "requirement_source": "Always visible (proof)",
+      "overrides": {}
+    }
+  ]
+}
