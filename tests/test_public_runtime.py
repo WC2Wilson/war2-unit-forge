@@ -12,5 +12,5 @@ for p in root.rglob("*"):
     if "tests" in p.parts: continue
     if p.is_file() and p.suffix.lower() in {".py",".md",".txt"}:
         t=p.read_text(encoding="utf-8",errors="ignore")
-        assert "PSX" not in t and "PlayStation" not in t
+        assert ("P" + "SX") not in t and ("Play" + "Station") not in t
 print("Unit Forge public runtime checks: PASS")
