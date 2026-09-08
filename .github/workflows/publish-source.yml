@@ -1,0 +1,67 @@
+name: Publish cleaned source tree
+
+on:
+  push:
+    paths:
+      - '.repo-source.zip'
+
+permissions:
+  contents: write
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Expand cleaned source package
+        shell: bash
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          import shutil, zipfile
+
+          archive = Path('.repo-source.zip')
+          temp = Path('.repo-source-unpack')
+          if temp.exists():
+              shutil.rmtree(temp)
+          temp.mkdir()
+          with zipfile.ZipFile(archive) as zf:
+              zf.extractall(temp)
+          entries = [p for p in temp.iterdir() if p.name != '__MACOSX']
+          source = entries[0] if len(entries) == 1 and entries[0].is_dir() else temp
+          for item in source.iterdir():
+              target = Path(item.name)
+              if target == Path('.github'):
+                  continue
+              if target.exists():
+                  if target.is_dir():
+                      shutil.rmtree(target)
+                  else:
+                      target.unlink()
+              if item.is_dir():
+                  shutil.copytree(item, target)
+              else:
+                  shutil.copy2(item, target)
+          shutil.rmtree(temp)
+          archive.unlink()
+          workflow = Path('.github/workflows/publish-source.yml')
+          if workflow.exists():
+              workflow.unlink()
+          PY
+
+      - name: Commit published tree
+        shell: bash
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          if git diff --cached --quiet; then
+            echo "No source changes to commit."
+            exit 0
+          fi
+          git commit -m "Publish cleaned source tree"
+          git push
